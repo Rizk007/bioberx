@@ -1,6 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { Button } from "@/components/ui/button";
-import { Flask, Pill, Microscope, Phone, Mail, MapPin } from "lucide-react";
+import { TestTube, Pill, Microscope, Phone, Mail, MapPin } from "lucide-react";
 
 const Index = () => {
   return (
@@ -29,7 +29,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                icon: Flask,
+                icon: TestTube,
                 title: "Custom Formulations",
                 description: "Personalized medications tailored to your specific needs and preferences."
               },
