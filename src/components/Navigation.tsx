@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Menu, X } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -17,7 +16,6 @@ export const Navigation = () => {
             <a href="#services" className="text-gray-600 hover:text-gray-900 transition-colors">Services</a>
             <a href="#about" className="text-gray-600 hover:text-gray-900 transition-colors">About</a>
             <a href="#contact" className="text-gray-600 hover:text-gray-900 transition-colors">Contact</a>
-            <Button className="bg-gray-900 hover:bg-gray-800 text-white">Schedule Consultation</Button>
           </div>
 
           <div className="md:hidden flex items-center">
@@ -56,9 +54,6 @@ export const Navigation = () => {
             >
               Contact
             </a>
-            <div className="px-3 py-2">
-              <Button className="w-full bg-gray-900 hover:bg-gray-800 text-white">Schedule Consultation</Button>
-            </div>
           </div>
         </div>
       )}
